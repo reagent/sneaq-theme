@@ -1,0 +1,3 @@
+<h1>Posts filed under "<%= h @tag.name %>"</h1>
+
+<%= render :partial => 'posts/post', :collection => @tag.posts %>

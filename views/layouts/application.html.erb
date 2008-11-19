@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+  <title>sneaq.</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <%= stylesheet_link_tag 'global', 'coderay' %>
+  <%= auto_discovery_link_tag :rss, feed_url %>
+</head>
+<body>
+  <div id="main" class="clearfix">
+    <div id="header">
+      <div id="header-main">
+        <%= link_to image_tag('sneaq-logo.jpg'), root_path %>
+      </div>
+    </div>
+    <div id="content">
+      <%= yield %>
+    </div>
+  </div>
+</body>
+</html>
