@@ -116,11 +116,11 @@ div#pagination div.next
 /* ---------- Footer styles ---------- */
 
 #footer {
-  font-size: .8em;
+  font-size: .9em;
   color: #BBB;
   margin: 0 auto 10px auto;
-  text-align: left;
-  width: 750px;
+  text-align: right;
+  width: 650px;
 }
 
 /** Firefox container fix */
