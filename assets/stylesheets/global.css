@@ -43,6 +43,25 @@ blockquote {
   border-left: 4px solid #9D9993;
 }
 
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid silver;
+  color: #100;
+  padding: 5px;
+  margin: 5px 0 5px 0;
+  overflow: auto;
+}
+
+pre code {
+  font-size: 13px;
+}
+
+tt {
+  background-color: #eee;
+  font-size: 13px;
+  padding: 0 1px 0 1px;
+}
+
 /* ---------- Wrapper styles ---------- */
 
 #main {
