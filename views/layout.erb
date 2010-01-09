@@ -5,14 +5,15 @@
 <head>
   <title><%= title %></title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <%= stylesheet_link_tag 'global', 'coderay' %>
-  <%= auto_discovery_link_tag :rss, feed_url %>
+  <link href="/stylesheets/global.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="/stylesheets/coderay.css" media="screen" rel="stylesheet" type="text/css" />
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="<%= feed_url %>" />
 </head>
 <body>
   <div id="main" class="clearfix">
     <div id="header">
       <div id="header-main">
-        <%= link_to image_tag('sneaq-logo.jpg'), root_path %>
+        <a href="<%= root_url %>"><img src="/images/sneaq-logo.jpg" /></a>
       </div>
     </div>
     <div id="content">

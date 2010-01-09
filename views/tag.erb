@@ -1,0 +1,5 @@
+<h1>Posts filed under "<%= h @tag.name %>"</h1>
+
+<% @tag.posts.each do |post| %>
+  <%= erb :'_post', :layout => false, :locals => {:post => post} %>
+<% end %>
